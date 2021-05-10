@@ -2,47 +2,187 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c2efa2b-31e4-4d31-aedc-471c08169460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/major/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emma_Stone_Lifts_Off_in_La_La_Land.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Emma_Stone_Lifts_Off_in_La_La_Land_azZxX3K.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/0002_rename_dosier_dossier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/0003_auto_20210505_1315.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de96267-7553b6b3-5ea8-46cb-9d2e-f7d9ee073d1f.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de96267-7553b6b3-5ea8-46cb-9d2e-f7d9ee073d1f_5xXGoea.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de96267-7553b6b3-5ea8-46cb-9d2e-f7d9ee073d1f_6mTk7Xn.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de96267-7553b6b3-5ea8-46cb-9d2e-f7d9ee073d1f_g7wM7ia.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de96267-7553b6b3-5ea8-46cb-9d2e-f7d9ee073d1f_lwbdAX1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de96267-7553b6b3-5ea8-46cb-9d2e-f7d9ee073d1f_ulIf32m.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de96267-7553b6b3-5ea8-46cb-9d2e-f7d9ee073d1f_vj101eh.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/de96267-7553b6b3-5ea8-46cb-9d2e-f7d9ee073d1f_zIaV0P0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/migrations/0002_auto_20210428_1452.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/migrations/0003_alter_document_date_expired.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/migrations/0004_alter_document_date_expired.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/migrations/0005_rename_document_room_document_document_root.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documents/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major/migrations/0002_delete_education.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major/migrations/0003_education_warcraft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/military.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/military.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/major/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/major/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/major/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/major/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/major/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/major/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/military/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/military/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/military/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/military/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1rnebLqDubWijzWQcHP9UcvaYpr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: documents.tests.TestDocumentRolesPost.test_president_permissions_public">
+    <configuration name="Test: documents.tests.TestDocumentRolesPost" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="military" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="documents.tests.TestDocumentRolesPost" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: documents.tests.TestDocumentRolesPost.test_common_no_permissions" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="military" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="documents.tests.TestDocumentRolesPost.test_common_no_permissions" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: documents.tests.TestDocumentRolesPost.test_president_permissions" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="military" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="documents.tests.TestDocumentRolesPost.test_president_permissions" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: documents.tests.TestDocumentRolesPost.test_president_permissions_public" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="military" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="documents.tests.TestDocumentRolesPost.test_president_permissions_public" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: documents.tests.TestDocumentRolesPost.test_president_permissions_topsecret" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="military" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="documents.tests.TestDocumentRolesPost.test_president_permissions_topsecret" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="military" type="Python.DjangoServer" factoryName="Django server">
       <module name="military" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,6 +206,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesPost.test_president_permissions_public" />
+        <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesPost.test_president_permissions" />
+        <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesPost.test_common_no_permissions" />
+        <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesPost.test_president_permissions_topsecret" />
+        <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesPost" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,6 +226,12 @@
       <updated>1619616352202</updated>
       <workItem from="1619616353468" duration="26000" />
       <workItem from="1619617793298" duration="58000" />
+      <workItem from="1619619201933" duration="6915000" />
+      <workItem from="1619787719238" duration="7060000" />
+      <workItem from="1620048034321" duration="6301000" />
+      <workItem from="1620220614998" duration="4415000" />
+      <workItem from="1620392882059" duration="7649000" />
+      <workItem from="1620652151409" duration="865000" />
     </task>
     <servers />
   </component>
@@ -94,5 +249,18 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_general_no_permissions.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_general_no_permissions Coverage Results" MODIFIED="1620399365272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_general_permissions.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_general_permissions Coverage Results" MODIFIED="1620398598818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesGet.coverage" NAME="Test: documents.tests.TestDocumentRolesGet Coverage Results" MODIFIED="1620396994132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_common_no_permissions.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_common_no_permissions Coverage Results" MODIFIED="1620399694364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost.coverage" NAME="Test: documents.tests.TestDocumentRolesPost Coverage Results" MODIFIED="1620399448878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_president_permissions_public.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_president_permissions_public Coverage Results" MODIFIED="1620399774661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_president_permissions.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_president_permissions Coverage Results" MODIFIED="1620399746504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_president_permissions_topsecret.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_president_permissions_topsecret Coverage Results" MODIFIED="1620399682344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
