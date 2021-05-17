@@ -5,6 +5,7 @@ from rest_framework import serializers, status
 
 
 class EducationSerializer(serializers.ModelSerializer):
+    id = serializers.IntegerField(read_only=True)
 
     class Meta:
         model = Education
@@ -12,6 +13,7 @@ class EducationSerializer(serializers.ModelSerializer):
 
 
 class WarcraftSerializer(serializers.ModelSerializer):
+    id = serializers.IntegerField(read_only=True)
 
     class Meta:
         model = Warcraft

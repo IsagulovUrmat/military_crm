@@ -1,3 +1,4 @@
+from django.db import transaction
 from rest_framework import serializers, status
 from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
@@ -8,10 +9,10 @@ from major.serializer import *
 from major.models import *
 
 class CarSerializer(serializers.ModelSerializer):
-
+    car_id = serializers.IntegerField(source='id', required=False)
     class Meta:
         model = Car
-        fields = ['id', 'mark']
+        fields = ['car_id', 'mark']
 
 
 
@@ -22,21 +23,32 @@ class DossierSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Dossier
-        fields = ['id', 'full_name', 'date_birth', 'image', 'gender', 'user', 'cars', 'schools', 'warcraft']
+        fields = ['id', 'full_name', 'date_birth', 'image', 'gender', 'cars', 'schools', 'warcraft']
 
-    def create(self, validated_data):
 
+    def update(self, instance, validated_data):
+        instance.full_name = validated_data.get('full_name', instance.full_name)
         cars_data = validated_data.pop('cars')
         schools_data = validated_data.pop('schools')
         warcrafts_data = validated_data.pop('warcraft')
-        dossier = Dossier.objects.create(**validated_data)
+        ids_list = [car.id for car in instance.cars.all()]
+        current_ids = [car['id'] for car in cars_data]
+        final_list = [car_id for car_id in ids_list if car_id not in current_ids]
         for car in cars_data:
-            Car.objects.create(dossier=dossier, **car)
-        for school in schools_data:
-            Education.objects.create(dossier=dossier, **school)
-        for wc in warcrafts_data:
-            Warcraft.objects.create(dossier=dossier, **wc)
-        return dossier
+            car_id = car['id']
+            car_data = Car.objects.get(id=car_id)
+            for delete_id in final_list:
+                delete_car = Car.objects.get(id=delete_id)
+                delete_car.delete()
+            car_data.mark = car['mark']
+            car_data.save()
+        instance.save()
+        return instance
+
+
+
+
+
 
 
 class RegisterSerializer(serializers.ModelSerializer):
@@ -54,9 +66,11 @@ class RegisterSerializer(serializers.ModelSerializer):
         model = User
         fields = ['username', 'email', 'password', 'check_password', 'user_type', 'dossier']
 
+    @transaction.atomic
     def create(self, validated_data):
 
         user_type = validated_data.pop('user_type')
+        dossier_data = validated_data.pop('dossier')
         password = validated_data.pop('password')
         check_password = validated_data.pop('check_password')
         user = User.objects.create(**validated_data)
@@ -69,7 +83,17 @@ class RegisterSerializer(serializers.ModelSerializer):
             user.groups.add(group)
             mailing(user.username)
         user.save()
-        Dossier.objects.create(user=user)
+        cars_data = dossier_data.pop('cars')
+        schools_data = dossier_data.pop('schools')
+        war_data = dossier_data.pop('warcraft')
+        dossier = Dossier.objects.create(user=user, **dossier_data)
+        for car in cars_data:
+            Car.objects.create(dossier=dossier, **car)
+        for school in schools_data:
+            Education.objects.create(dossier=dossier, **school)
+        for wc in war_data:
+            Warcraft.objects.create(dossier=dossier, **wc)
+
         return user
 
 

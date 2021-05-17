@@ -3,6 +3,7 @@ from accounts.models import Dossier
 
 class Education(models.Model):
 
+    id = models.AutoField(primary_key=True, auto_created=True)
     # start_date = models.DateField()
     # end_date = models.DateField()
     schoolname = models.CharField(max_length=50)
@@ -15,6 +16,7 @@ class Education(models.Model):
 
 class Warcraft(models.Model):
 
+    id = models.AutoField(primary_key=True, auto_created=True)
     dossier = models.ForeignKey(Dossier, on_delete=models.CASCADE, related_name='warcraft')
     military_area = models.CharField(max_length=20)
 
