@@ -13,7 +13,7 @@ class IsSuperUserOrReadOnly(BasePermission):
         if request.method in SAFE_METHODS:
             return True
 
-        return request.user.groups.filter(name__in=['president']) or request.user.is_superuser
+        return request.user.groups.filter(name__in=['president'])
 
 
 class FilterObjPermission(BasePermission):

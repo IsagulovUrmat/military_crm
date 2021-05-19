@@ -170,4 +170,27 @@ class TestDocumentRolesPost(APITestCase):
         self.response = self.client.post(self.url, data)
         self.assertEqual(self.response.status_code, status.HTTP_201_CREATED)
 
+# pk = id
+# url = reverse('courses-detail', args=course.id)
 
+class TestDateExpiredDocument(APITestCase):
+
+
+    def setUp(self):
+        self.client = APIClient()
+        self.url = reverse('documents-detail', pk=id)
+        Document.objects.create(title='not expired doc',
+                                date_expired="2021-12-31",document_root='private')
+        Document.objects.create(title='expired doc',
+                                date_expired="2021-05-09", document_root='private',status='dead')
+        populate_test_db_users(User, Group)
+    def test_get_not_expired(self):
+        self.client.login(username='general',password='123456')
+        self.response = self.client.get(f'{self.url}/1/')
+        print(self.response.json())
+        self.assertContains(self.response,'active',status_code=200)
+    def test_get_expired(self):
+        self.client.login(username='general',password='123456')
+        self.response = self.client.get(self.url.format(2))
+        print(self.response.json())
+        self.assertNotContains(self.response,'dead',status_code=200)

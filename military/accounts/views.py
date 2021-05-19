@@ -10,6 +10,11 @@ class DossierViewSet(viewsets.ModelViewSet):
     queryset = Dossier.objects.all()
     serializer_class = DossierSerializer
 
+    def get_queryset(self):
+        if isinstance(self.request.user, User):
+            dossier = Dossier.objects.filter(user=self.request.user)
+            return dossier
+
 
 class RegisterViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
