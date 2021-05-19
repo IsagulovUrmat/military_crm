@@ -3,10 +3,10 @@ from .views import *
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register('dossier', DossierViewSet, basename='dossier')
 router.register('register', RegisterViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('login/', AuthView.as_view())
+    path('login/', AuthView.as_view()),
+    path('dossier/', DossierViewSet.as_view(), name='dossier')
 ]

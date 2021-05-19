@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c2efa2b-31e4-4d31-aedc-471c08169460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/documents/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/documents/permissions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/documents/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/documents/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +201,7 @@
       <workItem from="1620652151409" duration="6486000" />
       <workItem from="1621193538620" duration="4441000" />
       <workItem from="1621256716354" duration="6288000" />
+      <workItem from="1621429041723" duration="2617000" />
     </task>
     <servers />
   </component>
