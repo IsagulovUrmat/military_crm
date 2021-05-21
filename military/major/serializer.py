@@ -5,16 +5,16 @@ from rest_framework import serializers, status
 
 
 class EducationSerializer(serializers.ModelSerializer):
-    id = serializers.IntegerField(read_only=True)
+    edu_id = serializers.IntegerField(source='id', required=False)
 
     class Meta:
         model = Education
-        fields = ['id', 'schoolname']
+        fields = ['edu_id', 'schoolname']
 
 
 class WarcraftSerializer(serializers.ModelSerializer):
-    id = serializers.IntegerField(read_only=True)
+    war_id = serializers.IntegerField(source='id', required=False)
 
     class Meta:
         model = Warcraft
-        fields = ['id', 'military_area']
+        fields = ['war_id', 'military_area']

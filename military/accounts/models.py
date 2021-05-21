@@ -18,7 +18,7 @@ class Dossier(models.Model):
 
 class Car(models.Model):
 
-    id = models.AutoField(primary_key=True, auto_created=True)
+
     mark = models.CharField(max_length=20)
     # model
     # year

@@ -2,7 +2,7 @@ from django.shortcuts import render
 from rest_framework.authtoken.models import Token
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.views import APIView
-
+from .permissions import *
 from .serializer import *
 from rest_framework import viewsets
 
@@ -35,6 +35,7 @@ class DossierViewSet(APIView):
 
 
 class RegisterViewSet(viewsets.ModelViewSet):
+    permission_classes = [RegisterPermission]
     queryset = User.objects.all()
     serializer_class = RegisterSerializer
 

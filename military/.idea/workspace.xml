@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c2efa2b-31e4-4d31-aedc-471c08169460" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
+    <list default="true" id="0c2efa2b-31e4-4d31-aedc-471c08169460" name="Default Changelist" comment="Changed the views from views set to APIview and add put and delete methods to the dossier page!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/documents/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/major/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/major/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/major/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/major/serializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,46 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Django tests.Test: documents.tests.TestDateExpiredDocument">
+    <configuration name="Test: accounts.tests.TestDossierUpdate" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="military" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="accounts.tests.TestDossierUpdate" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: accounts.tests.TestDossierUpdate.test_delete" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="military" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="accounts.tests.TestDossierUpdate.test_delete" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test: documents.tests.TestDateExpiredDocument" type="DjangoTestsConfigurationType" temporary="true">
       <module name="military" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,46 +128,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="TARGET" value="documents.tests.TestDocumentRolesGet" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test: documents.tests.TestDocumentRolesPost.test_common_no_permissions" type="DjangoTestsConfigurationType" temporary="true">
-      <module name="military" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="documents.tests.TestDocumentRolesPost.test_common_no_permissions" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test: documents.tests.TestDocumentRolesPost.test_president_permissions" type="DjangoTestsConfigurationType" temporary="true">
-      <module name="military" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="documents.tests.TestDocumentRolesPost.test_president_permissions" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -176,10 +180,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Django tests.Test: documents.tests.TestDateExpiredDocument" />
+        <item itemvalue="Django tests.Test: accounts.tests.TestDossierUpdate" />
+        <item itemvalue="Django tests.Test: accounts.tests.TestDossierUpdate.test_delete" />
         <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesGet" />
         <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesPost.test_president_permissions_public" />
-        <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesPost.test_president_permissions" />
-        <item itemvalue="Django tests.Test: documents.tests.TestDocumentRolesPost.test_common_no_permissions" />
       </list>
     </recent_temporary>
   </component>
@@ -201,8 +205,17 @@
       <workItem from="1620652151409" duration="6486000" />
       <workItem from="1621193538620" duration="4441000" />
       <workItem from="1621256716354" duration="6288000" />
-      <workItem from="1621429041723" duration="2617000" />
+      <workItem from="1621429041723" duration="8514000" />
+      <workItem from="1621602198013" duration="1121000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed the views from views set to APIview and add put and delete methods to the dossier page!">
+      <created>1621431768770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621431768770</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,13 +235,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Changed the views from views set to APIview and add put and delete methods to the dossier page!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the views from views set to APIview and add put and delete methods to the dossier page!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_general_no_permissions.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_general_no_permissions Coverage Results" MODIFIED="1620399365272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDateExpiredDocument.coverage" NAME="Test: documents.tests.TestDateExpiredDocument Coverage Results" MODIFIED="1621264499869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDateExpiredDocument.coverage" NAME="Test: documents.tests.TestDateExpiredDocument Coverage Results" MODIFIED="1621603291770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_general_permissions.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_general_permissions Coverage Results" MODIFIED="1620398598818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__accounts_tests_TestDossierUpdate_test_delete.coverage" NAME="Test: accounts.tests.TestDossierUpdate.test_delete Coverage Results" MODIFIED="1621436876709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_common_no_permissions.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_common_no_permissions Coverage Results" MODIFIED="1620399694364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesGet.coverage" NAME="Test: documents.tests.TestDocumentRolesGet Coverage Results" MODIFIED="1620659174088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/military$Test__accounts_tests_TestDossierUpdate.coverage" NAME="Test: accounts.tests.TestDossierUpdate Coverage Results" MODIFIED="1621602820440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost.coverage" NAME="Test: documents.tests.TestDocumentRolesPost Coverage Results" MODIFIED="1620399448878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_president_permissions_public.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_president_permissions_public Coverage Results" MODIFIED="1620399774661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/military$Test__documents_tests_TestDocumentRolesPost_test_president_permissions.coverage" NAME="Test: documents.tests.TestDocumentRolesPost.test_president_permissions Coverage Results" MODIFIED="1620399746504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
